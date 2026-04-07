@@ -1,0 +1,6 @@
+.active-red {
+  background: #dc2626 !important;
+  color: white !important;
+  font-weight: 700 !important;
+  border-radius: 8px !important;
+}

@@ -1,0 +1,16 @@
+*{
+     font-family: 'Montaga';
+}
+
+body{
+    background-color: #E5E5E5;
+   
+}
+
+
+/* @media screen and (max-width: 480px) {
+    a.active{
+        background-color: black;
+        color: white;
+    }
+} */

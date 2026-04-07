@@ -1,0 +1,13 @@
+.category-filter{
+   border: 1px solid gray;
+   padding: 12px; 
+    width: 250px;
+}
+
+.select-sort{
+    width: auto;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+

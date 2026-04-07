@@ -1,0 +1,15 @@
+.email{
+    width: 500px;
+    height: 50px;
+    /* border-radius: 30px; */
+    padding: 0px 20px;
+    border: 1px solid grey;
+}
+
+.submit-email{
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    width: 100px;
+}

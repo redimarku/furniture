@@ -1,0 +1,27 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  background-color: #212529;
+  color: white;
+}
+
+.sidebar-header {
+  padding: 1rem;
+  border-bottom: 1px solid #444;
+}
+
+/* Main content offset for fixed sidebar */
+@media (min-width: 768px) {
+  .offset-md-3 {
+    margin-left: 25%;
+  }
+}
+
+/* Hover effect for navbar */
+.nav-link:hover {
+  background-color: #343a40;
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+.latest-headings{
+    color:grey;
+    font-size: 50px;
+    /* text-align: center; */
+    margin: 30px 0;
+    
+}
+
+.latest-headings > span{
+    font-size: 40px;
+    color: #4A4A4A;
+}

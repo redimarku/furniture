@@ -1,0 +1,71 @@
+.slider-controls {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.slider-controls button {
+  font-size: 1.2rem;
+  background: #eee;
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.slider-controls button:hover {
+  background: orange;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: orange;
+}
+
+.slider{
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+}
+
+.context h4{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.context h2{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.context a{
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    font-size: 30px;
+    border: none;
+     padding: 12px 30px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.context a:hover {
+    background-color: black;
+    color: orange;
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
